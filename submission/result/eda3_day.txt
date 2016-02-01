@@ -1,0 +1,28 @@
+
+惑前 A
+               Df    Sum Sq   Mean Sq F value Pr(>F)    
+备概夸老        1 1.883e+12 1.883e+12   209.3 <2e-16 ***
+Residuals   16815 1.512e+14 8.995e+09                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+惑前 B
+               Df    Sum Sq   Mean Sq F value  Pr(>F)    
+备概夸老        1 1.604e+11 1.604e+11   19.98 7.9e-06 ***
+Residuals   10464 8.402e+13 8.029e+09                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+惑前 C
+               Df    Sum Sq   Mean Sq F value Pr(>F)    
+备概夸老        1 6.884e+13 6.884e+13   735.7 <2e-16 ***
+Residuals   18716 1.751e+15 9.357e+10                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+惑前 D
+               Df    Sum Sq   Mean Sq F value Pr(>F)    
+备概夸老        1 8.192e+13 8.192e+13   225.8 <2e-16 ***
+Residuals   28168 1.022e+16 3.628e+11                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

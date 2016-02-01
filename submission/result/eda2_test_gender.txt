@@ -1,0 +1,83 @@
+상품구분: 상품A
+
+Call:
+lm(formula = 보정금액 ~ gender, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-14641   -142   -141   -141  64359 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2143.630     31.688  67.648   <2e-16 ***
+gender        -1.168     18.795  -0.062     0.95    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1195 on 16815 degrees of freedom
+Multiple R-squared:  2.298e-07,	Adjusted R-squared:  -5.924e-05 
+F-statistic: 0.003864 on 1 and 16815 DF,  p-value: 0.9504
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품B
+
+Call:
+lm(formula = 보정금액 ~ gender, data = x)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-26606.6   -117.0   -106.6   -106.6  28383.0 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2127.37      38.41  55.389   <2e-16 ***
+gender        -10.40      23.19  -0.448    0.654    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1185 on 10464 degrees of freedom
+Multiple R-squared:  1.922e-05,	Adjusted R-squared:  -7.635e-05 
+F-statistic: 0.2011 on 1 and 10464 DF,  p-value: 0.6539
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품C
+
+Call:
+lm(formula = 보정금액 ~ gender, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-56760  -1760   -855   -260  98145 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   4950.1      125.4  39.466  < 2e-16 ***
+gender        -594.8       74.9  -7.942  2.1e-15 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5033 on 18716 degrees of freedom
+Multiple R-squared:  0.003359,	Adjusted R-squared:  0.003306 
+F-statistic: 63.08 on 1 and 18716 DF,  p-value: 2.099e-15
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품D
+
+Call:
+lm(formula = 보정금액 ~ gender, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-34952   -952   -803    548 141697 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  3100.28      64.67  47.943  < 2e-16 ***
+gender       -148.54      38.97  -3.811 0.000138 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3245 on 28168 degrees of freedom
+Multiple R-squared:  0.0005154,	Adjusted R-squared:  0.00048 
+F-statistic: 14.53 on 1 and 28168 DF,  p-value: 0.0001385
+

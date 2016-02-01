@@ -1,0 +1,96 @@
+상품구분: 상품A
+[1] -0.785057
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품B
+[1] -0.953837
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품C
+[1] -0.7962936
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품D
+[1] -0.2897141
+
+
+상품구분: 상품A
+
+Call:
+lm(formula = 주별합계 ~ 주별평균기온, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-52298 -26138    331  20401  90299 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  146814.4     8814.4  16.656 1.09e-14 ***
+주별평균기온  -3863.0      622.2  -6.209 2.04e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 33080 on 24 degrees of freedom
+Multiple R-squared:  0.6163,	Adjusted R-squared:  0.6003 
+F-statistic: 38.55 on 1 and 24 DF,  p-value: 2.043e-06
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품B
+
+Call:
+lm(formula = 주별합계 ~ 주별평균기온, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-41108  -6513  -1251  12024  24774 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  154964.2     6110.0   25.36  < 2e-16 ***
+주별평균기온  -5064.2      325.5  -15.56 4.88e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 14350 on 24 degrees of freedom
+Multiple R-squared:  0.9098,	Adjusted R-squared:  0.906 
+F-statistic: 242.1 on 1 and 24 DF,  p-value: 4.88e-14
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품C
+
+Call:
+lm(formula = 주별합계 ~ 주별평균기온, data = x)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-143886  -38245  -14666   32773  162406 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    306299      20627  14.849 1.35e-13 ***
+주별평균기온   -10684       1657  -6.449 1.14e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 81930 on 24 degrees of freedom
+Multiple R-squared:  0.6341,	Adjusted R-squared:  0.6188 
+F-statistic: 41.59 on 1 and 24 DF,  p-value: 1.142e-06
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품D
+
+Call:
+lm(formula = 주별합계 ~ 주별평균기온, data = x)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-258572  -75749  -17496   47631  741038 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    310214      56402   5.500 1.18e-05 ***
+주별평균기온    -5742       3872  -1.483    0.151    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 184800 on 24 degrees of freedom
+Multiple R-squared:  0.08393,	Adjusted R-squared:  0.04576 
+F-statistic: 2.199 on 1 and 24 DF,  p-value: 0.1511
+

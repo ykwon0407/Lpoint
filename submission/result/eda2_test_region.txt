@@ -1,0 +1,87 @@
+상품구분: 상품A
+
+Call:
+lm(formula = 보정금액 ~ 구매지역, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-14650   -150   -150   -119  64381 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   2149.80      12.57 170.986   <2e-16 ***
+구매지역경기   -30.88      19.95  -1.548    0.122    
+구매지역부산    26.57      30.66   0.867    0.386    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1195 on 16814 degrees of freedom
+Multiple R-squared:  0.0002448,	Adjusted R-squared:  0.0001258 
+F-statistic: 2.058 on 2 and 16814 DF,  p-value: 0.1277
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품B
+
+Call:
+lm(formula = 보정금액 ~ 구매지역, data = x)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-26603.6   -118.5   -118.5   -103.6  28381.5 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   2118.51      15.60 135.765   <2e-16 ***
+구매지역경기   -14.91      24.82  -0.601    0.548    
+구매지역부산   -24.48      41.71  -0.587    0.557    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1185 on 10463 degrees of freedom
+Multiple R-squared:  5.456e-05,	Adjusted R-squared:  -0.0001366 
+F-statistic: 0.2855 on 2 and 10463 DF,  p-value: 0.7517
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품C
+
+Call:
+lm(formula = 보정금액 ~ 구매지역, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-57120  -2120   -671   -362  98329 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   3861.74      52.16  74.033  < 2e-16 ***
+구매지역경기   258.40      79.63   3.245  0.00118 ** 
+구매지역부산   309.70     116.04   2.669  0.00762 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5040 on 18715 degrees of freedom
+Multiple R-squared:  0.0007339,	Adjusted R-squared:  0.0006271 
+F-statistic: 6.872 on 2 and 18715 DF,  p-value: 0.001039
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품D
+
+Call:
+lm(formula = 보정금액 ~ 구매지역, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-34851   -863   -851    637 141649 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   2850.65      28.06 101.597   <2e-16 ***
+구매지역경기    12.16      42.13   0.289    0.773    
+구매지역부산    67.22      57.83   1.162    0.245    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3246 on 28167 degrees of freedom
+Multiple R-squared:  4.827e-05,	Adjusted R-squared:  -2.273e-05 
+F-statistic: 0.6799 on 2 and 28167 DF,  p-value: 0.5067
+

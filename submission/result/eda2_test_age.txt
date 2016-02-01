@@ -1,0 +1,173 @@
+상품구분: 상품A
+
+Call:
+lm(formula = 평균구매액 ~ age, data = x)
+
+Residuals:
+      1       2       3       4       5       6 
+ 35.959  -6.377 -13.638 -56.022  -1.329  41.407 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 1973.575     37.164   53.10 7.53e-07 ***
+age           61.263      9.543    6.42  0.00303 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 39.92 on 4 degrees of freedom
+Multiple R-squared:  0.9115,	Adjusted R-squared:  0.8894 
+F-statistic: 41.21 on 1 and 4 DF,  p-value: 0.003026
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품B
+
+Call:
+lm(formula = 평균구매액 ~ age, data = x)
+
+Residuals:
+     7      8      9     10     11     12 
+-47.42  11.32  47.21  18.39  13.42 -42.92 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2007.976     38.850  51.685 8.39e-07 ***
+age           28.069      9.976   2.814   0.0481 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 41.73 on 4 degrees of freedom
+Multiple R-squared:  0.6643,	Adjusted R-squared:  0.5804 
+F-statistic: 7.917 on 1 and 4 DF,  p-value: 0.04814
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품C
+
+Call:
+lm(formula = 평균구매액 ~ age, data = x)
+
+Residuals:
+     13      14      15      16      17      18 
+-383.34  -71.78  499.11  410.66 -114.83 -339.82 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  3014.42     389.03   7.749  0.00149 **
+age           281.80      99.89   2.821  0.04778 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 417.9 on 4 degrees of freedom
+Multiple R-squared:  0.6655,	Adjusted R-squared:  0.5819 
+F-statistic: 7.958 on 1 and 4 DF,  p-value: 0.04778
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품D
+
+Call:
+lm(formula = 평균구매액 ~ age, data = x)
+
+Residuals:
+     19      20      21      22      23      24 
+-136.10   28.57  125.52   62.99   63.68 -144.66 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2720.80     117.80  23.098 2.08e-05 ***
+age            31.64      30.25   1.046    0.355    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 126.5 on 4 degrees of freedom
+Multiple R-squared:  0.2148,	Adjusted R-squared:  0.01851 
+F-statistic: 1.094 on 1 and 4 DF,  p-value: 0.3546
+
+
+
+
+상품구분: 상품A
+
+Call:
+lm(formula = 보정금액 ~ age, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-14592   -197   -145    -92  64355 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 1986.934     23.601  84.190  < 2e-16 ***
+age           52.587      7.335   7.169 7.85e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1193 on 16775 degrees of freedom
+  (40 observations deleted due to missingness)
+Multiple R-squared:  0.003055,	Adjusted R-squared:  0.002995 
+F-statistic:  51.4 on 1 and 16775 DF,  p-value: 7.849e-13
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품B
+
+Call:
+lm(formula = 보정금액 ~ age, data = x)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-26609.9   -142.2   -109.9    -77.5  28422.5 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2012.771     31.752  63.391  < 2e-16 ***
+age           32.362      9.772   3.312  0.00093 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1185 on 10437 degrees of freedom
+  (27 observations deleted due to missingness)
+Multiple R-squared:  0.00105,	Adjusted R-squared:  0.000954 
+F-statistic: 10.97 on 1 and 10437 DF,  p-value: 0.0009303
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품C
+
+Call:
+lm(formula = 보정금액 ~ age, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-56641  -1984  -1169    -12  97831 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2955.12      95.74   30.86   <2e-16 ***
+age           342.87      28.96   11.84   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5026 on 18674 degrees of freedom
+  (42 observations deleted due to missingness)
+Multiple R-squared:  0.007448,	Adjusted R-squared:  0.007395 
+F-statistic: 140.1 on 1 and 18674 DF,  p-value: < 2.2e-16
+
+---------------------------------------------------------------------------------------------------------- 
+상품구분: 상품D
+
+Call:
+lm(formula = 보정금액 ~ age, data = x)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-34996   -907   -818    593 141593 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2729.28      52.54  51.951  < 2e-16 ***
+age            44.42      15.60   2.847  0.00441 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3252 on 28045 degrees of freedom
+  (123 observations deleted due to missingness)
+Multiple R-squared:  0.000289,	Adjusted R-squared:  0.0002533 
+F-statistic: 8.107 on 1 and 28045 DF,  p-value: 0.004412
+
